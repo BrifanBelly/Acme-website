@@ -1,0 +1,23 @@
+
+    section#newsletter .container{
+        padding: 15px;
+        min-width: 100%;
+        color: #fff;
+        background-color: #35424a;
+        display: flex;
+        justify-content: space-evenly;
+
+        h1{
+
+        }
+
+        form{
+            margin-top: 15px;
+
+            input[type="email"]{
+                padding: 4px;
+                height: 25px;
+                width: 250px;
+            }
+        }
+    }

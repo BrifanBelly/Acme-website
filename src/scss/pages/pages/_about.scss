@@ -1,0 +1,15 @@
+section#main > .container {
+    display: flex;
+    justify-content: space-between;
+
+    &>#main-col{
+        flex-basis: 50%;
+    }
+}
+
+#services li{
+list-style: none;
+padding: 20px;
+border: 1px solid #ccc;
+background: rgba(0,00,0,0.1);
+}

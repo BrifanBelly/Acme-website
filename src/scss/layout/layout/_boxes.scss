@@ -1,0 +1,10 @@
+section#boxes{
+    .container{
+        display: flex;
+        text-align: center;
+        
+        .box{
+            flex: 1;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+// variables
+
+$showcase-bg-url: 'http://www.kuapay.com/wp-content/uploads/2018/06/competitiveness_business-1024x691.jpg';
+
+section#showcase{
+    min-height: 400px;
+    background: url($showcase-bg-url);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    color: #fff;
+
+    .container{
+        min-width: 100%;
+        background-color: rgba(0,0,0,0.1);
+    }
+
+    h1{
+        font-size: 55px;
+        margin-bottom: 10px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+}
